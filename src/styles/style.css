@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #24E3AD;
+    background-image: linear-gradient(90deg, #57E4FA, #24E3AD);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-content{
+    height: 520px;
+    width: 500px;
+    padding: 1rem;
+    position: relative;
+    top: 2rem;
+    background-color: #B9F9E7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*font-family: Oswald;*/
+    font-family: Inter;
+    border-radius: 15pt;
+}
+
+#profile{
+    position: relative;
+    top: 0px;
+}
+
+#profile h2, h3{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#profile img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: solid;
+}
+
+#links{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#links a{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 3rem;
+    width: 95%;
+    border: solid;
+    border-radius: 20pt;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    background-color: #FF8369;
+    transition: 0.2s;
+}
+
+#links a:hover{
+    background-color: #F27257;
+    height: 3.2rem;
+    width: 100%;
+}
+
+#links .icon{
+    margin-right: 5px;
+    height: 1rem;
+    width: 1rem;
+}
+
+@media(min-width: 401px) and (max-width: 768px){
+    
+    #main-content{
+        width: 350px;
+        height: 460px;
+        top: 1rem;
+    }
+
+    #profile img{
+        height: 6rem;
+        width: 6rem;
+    }
+
+    #profile h2{
+        font-size: medium;
+    }
+
+    #profile h3{
+        font-size: small;
+    }
+
+    #links{
+        font-size: small;
+    }
+
+    #links a{
+        height: 2.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+
+    #main-content{
+        height: 430px;
+        width: 300px;
+        top: 0.5rem;
+    }
+
+    #profile img{
+        height: 6rem;
+        width: 6rem;
+    }
+
+    #profile h2{
+        font-size: medium;
+    }
+
+    #profile h3{
+        font-size: small;
+    }
+
+    #links{
+        font-size: small;
+    }
+
+    #links a{
+        height: 2.3rem;
+    }
+
+}
