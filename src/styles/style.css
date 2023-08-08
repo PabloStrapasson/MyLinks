@@ -25,7 +25,6 @@ html, body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    /*font-family: Oswald;*/
     font-family: Inter;
     border-radius: 15pt;
 }
@@ -87,6 +86,14 @@ html, body{
     width: 1rem;
 }
 
+#add_button img{
+    height: 3rem;
+    width: 3rem;
+    border: solid;
+    border-radius: 50%;
+    border-color: black;
+}
+
 @media(min-width: 401px) and (max-width: 768px){
     
     #main-content{
@@ -114,6 +121,11 @@ html, body{
 
     #links a{
         height: 2.5rem;
+    }
+
+    #add_button img{
+        height: 2rem;
+        width: 2rem;
     }
 
 }
@@ -145,6 +157,11 @@ html, body{
 
     #links a{
         height: 2.3rem;
+    }
+
+    #add_button img{
+        height: 2rem;
+        width: 2rem;
     }
 
 }
