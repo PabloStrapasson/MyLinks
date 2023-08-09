@@ -1,26 +1,26 @@
-[
-    {
+{
+    "instagram": {
     "social_media": "Instagram",
     "src": "../../public/icons/instagram.png",
     "alt": "icone instagram",
     "link": "https://www.instagram.com/pablo_strapasson/"
     },
-    {
+    "whatsapp": {
         "social_media": "Whatsapp",
         "src": "../../public/icons/whatsapp.png",
         "alt": "icone whatsapp",
         "link": "https://wa.me/5549984384944"
     },
-    {
+    "facebook": {
         "social_media": "Facebook",
         "src": "../../public/icons/facebook.png",
         "alt": "icone facebook",
         "link": "https://www.facebook.com/pablo.strapasson"
     },
-    {
+    "linkedin": {
         "social_media": "Linkedin",
         "src": "../../public/icons/linkedin.png",
         "alt": "icone linkedin",
         "link": "https://www.linkedin.com/in/pablo-strapasson-103359218/"
     }
-]
+}
