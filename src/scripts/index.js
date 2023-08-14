@@ -14,7 +14,7 @@ function loadLinks(json){
     for(link of json){
         let title = link.social_media;
         let url = link.link;
-        createLinkItem(title, link);
+        createLinkItem(title, url);
     }
 }
 
