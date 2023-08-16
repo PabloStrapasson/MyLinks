@@ -11,6 +11,7 @@ function onError(error){
 
 function loadLinks(json){
     console.log(json)
+    console.log(typeof json)
     for(link of json){
         let title = link.social_media;
         let url = link.link;
