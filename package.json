@@ -1,35 +1,42 @@
 {
   "name": "mylinks",
-  "version": "1.0.0",
-  "description": "application with my personal links",
-  "main": "src/app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d build",
-    "start": "npm run build && nodemon --exec npx babel-node src/app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PabloStrapasson/MyLinks.git"
-  },
-  "author": "Pablo Daniel Riveros Strapasson",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PabloStrapasson/MyLinks/issues"
-  },
-  "homepage": "https://github.com/PabloStrapasson/MyLinks#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2",
-    "mongodb": "5.7"
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.22.10",
     "@babel/core": "^7.22.10",
-    "@babel/node": "^7.22.10",
-    "@babel/preset-env": "^7.22.10",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-es2015": "^6.24.1",
-    "nodemon": "^3.0.1"
+    "@babel/node": "^7.22.10"
   }
 }
