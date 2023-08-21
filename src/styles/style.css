@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,7 +18,7 @@ html, body{
 }
 
 #main-content{
-    height: 520px;
+    height: auto;
     width: 500px;
     padding: 1rem;
     position: relative;
@@ -25,7 +27,6 @@ html, body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    /*font-family: Oswald;*/
     font-family: Inter;
     border-radius: 15pt;
 }
@@ -87,6 +88,20 @@ html, body{
     width: 1rem;
 }
 
+#add_button img{
+    height: 3rem;
+    width: 3rem;
+    border: solid;
+    border-radius: 50%;
+    border-color: black;
+}
+
+#add_button img:hover{
+    height: 3.1rem;
+    width: 3.1rem;
+    cursor: pointer;
+}
+
 @media(min-width: 401px) and (max-width: 768px){
     
     #main-content{
@@ -114,6 +129,11 @@ html, body{
 
     #links a{
         height: 2.5rem;
+    }
+
+    #add_button img{
+        height: 2rem;
+        width: 2rem;
     }
 
 }
@@ -145,6 +165,11 @@ html, body{
 
     #links a{
         height: 2.3rem;
+    }
+
+    #add_button img{
+        height: 2rem;
+        width: 2rem;
     }
 
 }
